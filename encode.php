@@ -10,13 +10,13 @@
 	$url_page="new/firstpage.php";
 	$param1 = "name is arefin";
 	$param2 = "$%^ arefin";
-	$param3 = "nothing to be worried";
+	
 	
 	$url ="http://localhost/test/";
 	$url .= $url_page;
 	$url .= "?param1=" . urlencode($param1);
 	$url .="&param2=" . urlencode($param2);
-	$url .="&param3=" . urlencode($param3);
+	
 ?>
 
 <a href="<?php echo $url ;?>">Hello There</a>
